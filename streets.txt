@@ -1,0 +1,978 @@
+/*
+			var coordinates = 
+            [[49.93925, 36.258903],
+            [49.938693, 36.253809]];
+			polyline = DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates = 
+            [[49.945924, 36.251949],
+            [49.938689, 36.253796]];
+			polyline = DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates = 
+            [[49.941488, 36.253945],
+            [49.939715, 36.254396]];
+			polyline = DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates = 
+            [[49.945532, 36.258617],
+            [49.943942, 36.243729],
+            [49.94397, 36.240275],
+            [49.943702, 36.236947]];
+			polyline = DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates = 
+            [[49.943422, 36.25253],
+            [49.943137, 36.250068],
+            [49.943318, 36.250027],
+            [49.942157, 36.239736],
+            [49.942031, 36.236549],
+            [49.941848, 36.233413],
+            [49.941062, 36.230163],
+            [49.939891, 36.22641],
+            [49.939593, 36.225773],
+            [49.939304, 36.224785],
+            [49.93934, 36.222929],
+            [49.939278, 36.222288],
+            [49.939095, 36.221478]];
+			polyline = DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates = 
+            [[49.943127, 36.248294],
+            [49.941905, 36.248553]];
+			polyline = DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates = 
+            [[49.941805, 36.248102],
+            [49.937592, 36.247798],
+            [49.937482, 36.248247],
+            [49.932623, 36.248622]];
+			polyline = DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates = 
+            [[49.938597, 36.260739],
+            [49.943314, 36.259938],
+            [49.946632, 36.259785]];
+			polyline = DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates = 
+            [[49.940296, 36.260322],
+            [49.939631, 36.253596]];
+			polyline = DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates = 
+            [[49.946172, 36.254518],
+            [49.941829, 36.255564],
+            [49.941551, 36.255429],
+            [49.938953, 36.256138]];
+			polyline = DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates = 
+            [[49.943876, 36.258518],
+            [49.94322, 36.252625]];
+			polyline = DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates = 
+            [[49.944018, 36.252439],
+            [49.944649, 36.258501]];
+			polyline = DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates = 
+            [[49.939956, 36.23964],
+            [49.941616, 36.255477]];
+			polyline = DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates = 
+            [[49.941881, 36.256728],
+            [49.942091, 36.257331],
+            [49.94223, 36.258506]];
+			polyline = DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates = 
+            [[49.941298, 36.256693],
+            [49.941821, 36.256646]];
+			polyline = DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates = 
+            [[49.943021, 36.258486],
+            [49.940539, 36.236348]];
+			polyline = DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates = 
+            [[49.942124, 36.250308],
+            [49.945734, 36.249425],
+            [49.945828, 36.249774],
+            [49.946768, 36.249586]];
+			polyline = DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+*/
+
+/*
+			var coordinates =[
+			[49.95661, 36.25111],
+			[49.955468, 36.252925],
+			[49.955555, 36.25581],
+			[49.956672, 36.259246]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.954848, 36.256557],
+			[49.955689, 36.256488]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.958077, 36.25421],
+			[49.956211, 36.251724]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.961665, 36.257455],
+			[49.95869, 36.257991],
+			[49.956256, 36.258065]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.959133, 36.258511],
+			[49.95907, 36.2579]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.967208, 36.242915],
+			[49.965879, 36.241923],
+			[49.95359, 36.236565],
+			[49.952909, 36.236623],
+			[49.951615, 36.234998]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.953719, 36.23661],
+			[49.952744, 36.233313]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.95515, 36.244492],
+			[49.954026, 36.243794]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.954595, 36.242476],
+			[49.954359, 36.243908]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.956432, 36.249114],
+			[49.955486, 36.246045],
+			[49.95058, 36.243127],
+			[49.948526, 36.243072],
+			[49.947215, 36.242793],
+			[49.945036, 36.240723],
+			[49.941032, 36.23941],
+			[49.939102, 36.23975],
+			[49.93338, 36.245087]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.953221, 36.244675],
+			[49.954087, 36.241321]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.946634, 36.26015],
+			[49.94871, 36.260105],
+			[49.952713, 36.26001],
+			[49.96358, 36.258693]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.945821, 36.249777],
+			[49.946726, 36.249577],
+			[49.947851, 36.249642],
+			[49.947893, 36.250518],
+			[49.948496, 36.250853],
+			[49.948619, 36.251102],
+			[49.949109, 36.251594],
+			[49.949617, 36.251696],
+			[49.951428, 36.252599],
+			[49.951652, 36.253019],
+			[49.952211, 36.253045]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.95208, 36.245094],
+			[49.953466, 36.246704],
+			[49.956141, 36.25069],
+			[49.957011, 36.251301]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.956758, 36.237868],
+			[49.955098, 36.225064],
+			[49.953769, 36.222539]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.959473, 36.252283],
+			[49.961338, 36.249204],
+			[49.961562, 36.249059]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.955797, 36.256817],
+			[49.958757, 36.256754],
+			[49.961016, 36.256333]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.95274, 36.233306],
+			[49.953112, 36.231773],
+			[49.952938, 36.231275],
+			[49.952783, 36.23124],
+			[49.952817, 36.230726],
+			[49.952706, 36.230561],
+			[49.952603, 36.230567],
+			[49.952462, 36.230802],
+			[49.952365, 36.23084],
+			[49.952232, 36.230779],
+			[49.951801, 36.230341]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.955336, 36.257816],
+			[49.954366, 36.25791],
+			[49.954353, 36.258048],
+			[49.953442, 36.258008]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.953506, 36.259755],
+			[49.953377, 36.259597],
+			[49.953393, 36.258134],
+			[49.953474, 36.257883],
+			[49.953356, 36.25499],
+			[49.953369, 36.252846]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.959802, 36.254192],
+			[49.95807, 36.251981],
+			[49.95644, 36.249115],
+			[49.955674, 36.248073],
+			[49.953094, 36.245711],
+			[49.953015, 36.245535],
+			[49.952079, 36.244821]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.949701, 36.223491],
+			[49.949733, 36.223069],
+			[49.949673, 36.222561],
+			[49.949747, 36.221009],
+			[49.950084, 36.219402],
+			[49.950093, 36.219094],
+			[49.950459, 36.218386],
+			[49.950866, 36.218339],
+			[49.950917, 36.217886],
+			[49.951466, 36.216763]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[50.052646, 36.328653],
+			[50.051039, 36.325861]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.953161, 36.247459],
+			[49.954332, 36.249117],
+			[49.954325, 36.259591]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.954374, 36.252829],
+			[49.952425, 36.2528],
+			[49.952216, 36.253029]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.954365, 36.256191],
+			[49.953433, 36.256178]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.954393, 36.250166],
+			[49.95485, 36.250219],
+			[49.955232, 36.251134],
+			[49.955316, 36.25153],
+			[49.955543, 36.251871],
+			[49.955722, 36.252417]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.954384, 36.253563],
+			[49.953365, 36.253576]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.958982, 36.251496],
+			[49.96089, 36.248374]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.958756, 36.252936],
+			[49.957324, 36.25565],
+			[49.957397, 36.25916]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.953293, 36.249913],
+			[49.952571, 36.247073],
+			[49.952411, 36.246884],
+			[49.952302, 36.24641]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.952844, 36.246441],
+			[49.952574, 36.247078]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.954382, 36.255759],
+			[49.957319, 36.255611]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.961917, 36.249803],
+			[49.960102, 36.252795]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.953005, 36.243388],
+			[49.953496, 36.241088],
+			[49.953637, 36.240599]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.962059, 36.253757],
+			[49.959244, 36.249755],
+			[49.958888, 36.248468],
+			[49.958052, 36.241795],
+			[49.957715, 36.24141]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.95808, 36.248193],
+			[49.957958, 36.247417],
+			[49.958476, 36.246565],
+			[49.958642, 36.246427]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.96421, 36.248402],
+			[49.964712, 36.247659],
+			[49.965036, 36.247509],
+			[49.965107, 36.247403]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.964542, 36.247909],
+			[49.965045, 36.248524]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.960286, 36.258838],
+			[49.960071, 36.254827],
+			[49.960193, 36.254176],
+			[49.962239, 36.250939],
+			[49.962643, 36.250799],
+			[49.963924, 36.249045],
+			[49.964877, 36.249397],
+			[49.965993, 36.250544],
+			[49.966529, 36.251743],
+			[49.967794, 36.25196],
+			[49.968791, 36.252579],
+			[49.969488, 36.253901]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.960159, 36.255828],
+			[49.960598, 36.255774]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.953852, 36.231846],
+			[49.95396, 36.233181],
+			[49.953778, 36.233537]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.965772, 36.24193],
+			[49.965104, 36.247382]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.964601, 36.243098],
+			[49.964672, 36.243576],
+			[49.965044, 36.244329]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.959247, 36.249766],
+			[49.958677, 36.250474]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.958885, 36.248308],
+			[49.959135, 36.248082],
+			[49.959493, 36.247569]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.959864, 36.254308],
+			[49.957873, 36.256732]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.962453, 36.250848],
+			[49.960793, 36.247544],
+			[49.960477, 36.246606],
+			[49.960493, 36.246202],
+			[49.96014, 36.245683],
+			[49.959947, 36.245241],
+			[49.959652, 36.24556],
+			[49.959344, 36.245185],
+			[49.959118, 36.245208],
+			[49.958588, 36.245977]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.945045, 36.241799],
+			[49.943991, 36.242323],
+			[49.942504, 36.242362],
+			[49.942416, 36.24251],
+			[49.941172, 36.242567]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.945531, 36.258594],
+			[49.943945, 36.243717],
+			[49.943998, 36.242259],
+			[49.943967, 36.240332],
+			[49.9437, 36.237026]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.943413, 36.252526],
+			[49.943136, 36.250075],
+			[49.943317, 36.250019],
+			[49.942151, 36.239719],
+			[49.942024, 36.23655],
+			[49.941855, 36.233484],
+			[49.939909, 36.226465],
+			[49.939298, 36.224699],
+			[49.939345, 36.223035],
+			[49.939288, 36.222385],
+			[49.939125, 36.22156]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.946603, 36.246702],
+			[49.944305, 36.247238],
+			[49.941623, 36.246794],
+			[49.933435, 36.245908]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.946839, 36.249568],
+			[49.946316, 36.243076]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.946637, 36.259699],
+			[49.945151, 36.242523],
+			[49.945049, 36.241778],
+			[49.945145, 36.240906]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.941481, 36.245437],
+			[49.942486, 36.245094],
+			[49.942722, 36.245082]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.946347, 36.243575],
+			[49.94587, 36.243651],
+			[49.945465, 36.243697],
+			[49.945141, 36.243669],
+			[49.9446, 36.243727],
+			[49.943946, 36.243731]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.953778, 36.233524],
+			[49.953638, 36.233426],
+			[49.95336, 36.233406],
+			[49.953177, 36.233466],
+			[49.953094, 36.233475],
+			[49.95292, 36.233425],
+			[49.952744, 36.23331]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.96579, 36.241855],
+			[49.965938, 36.240585],
+			[49.965725, 36.238243],
+			[49.965557, 36.23802],
+			[49.964961, 36.236926],
+			[49.964663, 36.235477],
+			[49.964853, 36.234691],
+			[49.964853, 36.233223]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.964667, 36.225825],
+			[49.96474, 36.224972],
+			[49.966147, 36.220398]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.953462, 36.246717],
+			[49.952883, 36.24812]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.952216, 36.244076],
+			[49.953213, 36.240093]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+*/
+
+/*
+			var coordinates =[
+			[49.945832, 36.23595],
+			[49.946099, 36.241721]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.946581, 36.235872],
+			[49.946738, 36.238714],
+			[49.948226, 36.235106],
+			[49.946079, 36.240187]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.933376, 36.24508],
+			[49.93908, 36.239738],
+			[49.940856, 36.239411],
+			[49.945172, 36.240838],
+			[49.947179, 36.242759],
+			[49.948298, 36.24303],
+			[49.95054, 36.243115],
+			[49.955474, 36.246001],
+			[49.956398, 36.249032]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.945533, 36.258625],
+			[49.943937, 36.243726],
+			[49.944002, 36.24226],
+			[49.944005, 36.240332],
+			[49.943955, 36.24022],
+			[49.943713, 36.237131]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.931283, 36.203007],
+			[49.931796, 36.206557],
+			[49.932828, 36.206346],
+			[49.933377, 36.205362]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.932714, 36.207959],
+			[49.932261, 36.208525],
+			[49.93178, 36.208586],
+			[49.93161, 36.208299],
+			[49.930553, 36.208792],
+			[49.929251, 36.206223],
+			[49.931664, 36.206669],
+			[49.931772, 36.208514]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.931208, 36.212453],
+			[49.930792, 36.211839],
+			[49.930085, 36.209627],
+			[49.930553, 36.208768]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.9312, 36.210095],
+			[49.930361, 36.210463],
+			[49.930077, 36.209639],
+			[49.928901, 36.209519]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.949804, 36.243065],
+			[49.95102, 36.2384],
+			[49.950893, 36.23756]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.949362, 36.243068],
+			[49.949436, 36.242087],
+			[49.949871, 36.240702],
+			[49.950369, 36.240869]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.949075, 36.243055],
+			[49.949177, 36.241589],
+			[49.949961, 36.239622]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.943416, 36.252541],
+			[49.943127, 36.250072],
+			[49.943316, 36.250021],
+			[49.942154, 36.239762],
+			[49.942048, 36.236749],
+			[49.941831, 36.233322],
+			[49.941056, 36.230155],
+			[49.939905, 36.226452],
+			[49.939615, 36.225876],
+			[49.939301, 36.224775],
+			[49.939333, 36.222886],
+			[49.939277, 36.222273],
+			[49.939108, 36.221573]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.940996, 36.225202],
+			[49.939465, 36.226319],
+			[49.937227, 36.227141]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.949109, 36.216715],
+			[49.94843, 36.215337]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.937807, 36.231011],
+			[49.936337, 36.232636],
+			[49.935581, 36.23279],
+			[49.935447, 36.232976],
+			[49.935206, 36.23436],
+			[49.934867, 36.234184],
+			[49.934111, 36.234085],
+			[49.934033, 36.234985],
+			[49.933694, 36.236028],
+			[49.930134, 36.235582],
+			[49.926108, 36.234328],
+			[49.925423, 36.233978],
+			[49.922698, 36.233594],
+			[49.921768, 36.232018],
+			[49.921677, 36.231189],
+			[49.921269, 36.228769],
+			[49.919357, 36.224785],
+			[49.918865, 36.223174],
+			[49.918303, 36.220799],
+			[49.918048, 36.22035],
+			[49.918088, 36.217261],
+			[49.91805, 36.216631],
+			[49.91781, 36.214507],
+			[49.917349, 36.211951],
+			[49.917082, 36.211968],
+			[49.916654, 36.212201],
+			[49.916537, 36.211649],
+			[49.915153, 36.211864]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.938841, 36.238871],
+			[49.939623, 36.23813],
+			[49.93979, 36.237909],
+			[49.940695, 36.237671],
+			[49.94074, 36.237979],
+			[49.941769, 36.237914],
+			[49.942186, 36.238049],
+			[49.943793, 36.238227]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.948327, 36.242989],
+			[49.948531, 36.238815],
+			[49.948624, 36.238406],
+			[49.948726, 36.236253],
+			[49.948327, 36.235104]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.950902, 36.237547],
+			[49.950681, 36.237521],
+			[49.949822, 36.239079]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.946715, 36.240984],
+			[49.947339, 36.241609],
+			[49.948395, 36.241824]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.947103, 36.240089],
+			[49.947665, 36.240534],
+			[49.94851, 36.240579]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.947431, 36.240368],
+			[49.947735, 36.239837],
+			[49.948526, 36.239743]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.944445, 36.236371],
+			[49.944668, 36.240057],
+			[49.944551, 36.240467]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.936962, 36.215242],
+			[49.937621, 36.214703]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.945096, 36.236176],
+			[49.945313, 36.240381],
+			[49.945211, 36.240834]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.932454, 36.214308],
+			[49.931186, 36.212454],
+			[49.929621, 36.21346],
+			[49.929011, 36.213567],
+			[49.928884, 36.213987],
+			[49.929107, 36.214383],
+			[49.930459, 36.214696],
+			[49.930889, 36.214968],
+			[49.931467, 36.214861],
+			[49.932656, 36.21519]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.951166, 36.243425],
+			[49.952269, 36.239289]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.941006, 36.225172],
+			[49.940768, 36.221878],
+			[49.940517, 36.219977]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.940763, 36.221893],
+			[49.93932, 36.222343]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.940654, 36.220982],
+			[49.939128, 36.221482]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.940768, 36.221883],
+			[49.942783, 36.219966]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.94248, 36.218935],
+			[49.941115, 36.220175]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.921542, 36.230163],
+			[49.924514, 36.230299],
+			[49.926379, 36.229969],
+			[49.927151, 36.232285],
+			[49.927383, 36.233683],
+			[49.927653, 36.234811]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.927239, 36.232618],
+			[49.928634, 36.232853],
+			[49.929279, 36.232815],
+			[49.929673, 36.233107],
+			[49.933697, 36.234389],
+			[49.93374, 36.234905]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.946309, 36.241921],
+			[49.948163, 36.237652],
+			[49.948628, 36.236921]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.948499, 36.238769],
+			[49.947709, 36.239013],
+			[49.947587, 36.238986]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.921731, 36.231577],
+			[49.924152, 36.232021],
+			[49.924742, 36.232176],
+			[49.926384, 36.232475],
+			[49.926751, 36.232721],
+			[49.927219, 36.232625]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.931285, 36.202989],
+			[49.930918, 36.202794],
+			[49.925772, 36.201911],
+			[49.924836, 36.201895],
+			[49.923176, 36.203583],
+			[49.921634, 36.206223]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.926047, 36.205675],
+			[49.929235, 36.20622]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.928762, 36.206161],
+			[49.9289, 36.20684],
+			[49.929184, 36.206592],
+			[49.929518, 36.206724]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.941167, 36.242566],
+			[49.942429, 36.242536],
+			[49.942483, 36.24238],
+			[49.944102, 36.242329],
+			[49.944954, 36.241904],
+			[49.945047, 36.241811]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.941553, 36.24034],
+			[49.942194, 36.240345]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+			var coordinates =[
+			[49.942929, 36.241034],
+			[49.944003, 36.241117]
+			];
+			DG.polyline(coordinates, {color: 'blue'}).addTo(map);
+
+*/
+
